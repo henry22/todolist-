@@ -1,5 +1,6 @@
 html, body {
     font-family: Roboto;
+    box-sizing: border-box;
 }
 
 nav {
@@ -15,7 +16,6 @@ nav {
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
-    z-index: 1;
 }
 
 .status li {
@@ -24,15 +24,14 @@ nav {
     color: #00408B;
     cursor: pointer;
     line-height: 71px;
-    z-index: 2;
 }
 
 .status li:hover, .status li:visited {
-    box-shadow: 0 5px #00408B;
+    border-bottom: 5px solid #00408B;
 }
 
 .shadow {
-    box-shadow: 0 5px #00408B;
+    border-bottom: 5px solid #00408B;
 }
 
 .status li a {
@@ -41,4 +40,27 @@ nav {
 
 .status li a:hover, .status li a:visited {
     color: #FFFFFF;
+}
+
+section {
+    width: 620px;
+    margin: 0 auto;
+}
+
+.add_task {
+    width: calc(100% - 33px);
+    height: 65px;
+    display: block;
+    outline: none;
+    margin-top: 24px;
+    font-size: 24px;
+    border-radius: 5px;
+    border: 2px solid #C8C8C8;
+    padding: 0;
+    padding-left: 33px;
+}
+
+.add_task::placeholder {
+    font-size: 24px;
+    color: #C8C8C8;
 }
