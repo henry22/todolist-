@@ -1,0 +1,44 @@
+html, body {
+    font-family: Roboto;
+}
+
+nav {
+    width: 1024px;
+    height: 76px;
+    background-color: #4A90E2;
+    margin: 0 auto;
+}
+
+.status {
+    width: 620px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    z-index: 1;
+}
+
+.status li {
+    height: 71px;
+    font-size: 24px;
+    color: #00408B;
+    cursor: pointer;
+    line-height: 71px;
+    z-index: 2;
+}
+
+.status li:hover, .status li:visited {
+    box-shadow: 0 5px #00408B;
+}
+
+.shadow {
+    box-shadow: 0 5px #00408B;
+}
+
+.status li a {
+    text-decoration: none;
+}
+
+.status li a:hover, .status li a:visited {
+    color: #FFFFFF;
+}
