@@ -67,16 +67,49 @@ section {
     color: #C8C8C8;
 }
 
+.tasks p {
+    margin-left: 32px;
+    color: #C8C8C8;
+    font-size: 24px;
+}
+
 .task {
-    height: 102px;
     margin-bottom: 8px;
-    background-color: #FFF2DC;
     border-radius: 5px;
     padding: 24px 32px 17px 32px;
 }
 
+.like {
+    background-color: #FFF2DC;
+}
+
+.dislike {
+    background-color: #F2F2F2;
+}
+
+.task .icons {
+    float: right;
+    font-size: 20px;
+}
+
+.fas.fa-star {
+    color: #F5A623;
+}
+
+.fa-star {
+    margin-right: 32px;
+}
+
+.info {
+    margin-left: 40px;
+}
+
+.info i {
+    margin-right: 16px;
+}
+
 .container {
-    display: block;
+    display: inline-block;
     position: relative;
     padding-left: 35px;
     margin-bottom: 12px;
