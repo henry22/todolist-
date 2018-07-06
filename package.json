@@ -1,0 +1,19 @@
+{
+  "name": "node-todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henry22/todolist-.git"
+  },
+  "author": "HenryChien",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henry22/todolist-/issues"
+  },
+  "homepage": "https://github.com/henry22/todolist-#readme"
+}
