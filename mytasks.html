@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>todolist</title>
 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./style.css">
 </head>
@@ -23,8 +24,64 @@
             </li>
         </ul>
     </nav>
+
     <section>
         <input type="text" class="add_task" placeholder="+ Add Task">
+
+        <ul class="tasks">
+            <li class="task like">
+                <label class="container">Type Something Here…
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <span class="icons">
+                    <i class="fas fa-star"></i><i class="fas fa-pencil-alt"></i>
+                </span>
+                <div class="info">
+                    <i class="far fa-calendar-alt"> 5/14</i>
+                    <i class="far fa-file"></i>
+                    <i class="far fa-comment-dots"></i>
+                </div>
+            </li>
+            <li class="task like">
+                <label class="container">Type Something Here…
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <span class="icons">
+                    <i class="fas fa-star"></i><i class="fas fa-pencil-alt"></i>
+                </span>
+                <div class="info">
+                    <i class="far fa-file"></i>
+                    <i class="far fa-comment-dots"></i>
+                </div>
+            </li>
+            <li class="task dislike">
+                <label class="container">Type Something Here…
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <span class="icons">
+                    <i class="far fa-star"></i><i class="fas fa-pencil-alt"></i>
+                </span>
+                <div class="info">
+                    <i class="far fa-calendar-alt"> 6/18</i>
+                </div>
+            </li>
+            <li class="task dislike">
+                <label class="container">Type Something Here…
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <span class="icons">
+                    <i class="far fa-star"></i><i class="fas fa-pencil-alt"></i>
+                </span>
+                <div class="info">
+                    <i class="far fa-file"></i>
+                </div>
+            </li>
+            <p>4 tasks left</p>
+        </ul>
     </section>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
