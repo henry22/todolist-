@@ -42,7 +42,7 @@ module.exports = function(app) {
 
             newTodo.save(function(err) {
                 if(err) throw err;
-                
+
                 res.send('Success');
             });
         }

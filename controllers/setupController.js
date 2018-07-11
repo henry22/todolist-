@@ -24,6 +24,8 @@ module.exports = function(app) {
         ];
 
         Todos.create(starterTodos, function(err, results) {
+            if(err) throw err;
+
             res.send(results);
         })
     });
